@@ -30,6 +30,9 @@ src/test/java/
 
 src/test/resources/images/
 	PugMeg.jpg
+
+src/test/html/
+	desafio_final_selenium_java.html
 ```
 
 ## Padrao adotado
@@ -80,7 +83,7 @@ mvn -Dtest=tests.CadastrarPet test
 
 Arquivo utilizado nos testes:
 
-- Caminho local: C:/Users/hlimax/Documents/Selenium/desafio_final_selenium_java.html
+- Caminho no projeto: src/test/html/desafio_final_selenium_java.html
 
 Este arquivo contem os fluxos validados pela automacao:
 
@@ -90,9 +93,9 @@ Este arquivo contem os fluxos validados pela automacao:
 
 URL usada pela suite de testes:
 
-- file:///C:/Users/hlimax/Documents/Selenium/desafio_final_selenium_java.html
+- Gerada automaticamente pela BaseTest a partir de src/test/html/desafio_final_selenium_java.html
 
 ## Observacoes
 
-- O arquivo HTML utilizado nos testes esta configurado via URL local na classe base.
+- O arquivo HTML utilizado nos testes esta configurado para ser lido da pasta src/test/html na classe base.
 - A imagem usada no upload do cadastro fica em `src/test/resources/images/PugMeg.jpg`.

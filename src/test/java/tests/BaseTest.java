@@ -10,10 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pages.LoginPage;
 
+import java.nio.file.Paths;
 import java.time.Duration;
 
 public abstract class BaseTest {
-    protected static final String URL_BASE = "file:///C:/Users/hlimax/Documents/Selenium/desafio_final_selenium_java.html";
+    protected static final String URL_BASE = Paths.get("src", "test", "html", "desafio_final_selenium_java.html").toAbsolutePath().toUri().toString();
     protected WebDriver driver;
 
     @BeforeEach
