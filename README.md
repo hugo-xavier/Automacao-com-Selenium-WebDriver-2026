@@ -76,6 +76,22 @@ Para executar uma classe especifica:
 mvn -Dtest=tests.CadastrarPet test
 ```
 
+## Arquivo HTML do PetShop
+
+Arquivo utilizado nos testes:
+
+- Caminho local: C:/Users/hlimax/Documents/Selenium/desafio_final_selenium_java.html
+
+Este arquivo contem os fluxos validados pela automacao:
+
+- Login (valido e invalido)
+- Promocao
+- Cadastro de pet (salvar, limpar e obrigatoriedade de campos)
+
+URL usada pela suite de testes:
+
+- file:///C:/Users/hlimax/Documents/Selenium/desafio_final_selenium_java.html
+
 ## Observacoes
 
 - O arquivo HTML utilizado nos testes esta configurado via URL local na classe base.
